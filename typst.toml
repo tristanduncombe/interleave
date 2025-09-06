@@ -1,18 +1,15 @@
-# for a description of available keys, see https://github.com/typst/packages/?tab=readme-ov-file#package-format
-
 [package]
-name = ""
+name = "interleave"
 version = "0.1.0"
 entrypoint = "src/lib.typ"
-authors = []
+authors = [ ]
 license = "Unlicense"
-description = ""
+description = "Interleave providers helper functionality for Concurrent Program analysis and proofs."
 homepage = ""
 repository = ""
-keywords = []
-categories = []
-disciplines = []
-# compiler = ""
+keywords = [ ]
+categories = [ "utility" ]
+disciplines = [ "computer-science" ]
 exclude = [
   ".github",
   "docs",
@@ -21,13 +18,5 @@ exclude = [
   ".typstignore",
   "Justfile",
   "thumbnail-dark.svg",
-  "thumbnail-light.svg",
+  "thumbnail-light.svg"
 ]
-
-# [template]
-# path = "template"
-# entrypoint = "main.typ"
-# thumbnail = "thumbnail.png"
-
-# [tool.mytool]
-# foo = "bar"
