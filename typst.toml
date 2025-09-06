@@ -2,14 +2,12 @@
 name = "interleave"
 version = "0.1.0"
 entrypoint = "src/lib.typ"
-authors = [ ]
+authors = ["TristanDuncombe"]
 license = "Unlicense"
-description = "Interleave providers helper functionality for Concurrent Program analysis and proofs."
-homepage = ""
-repository = ""
-keywords = [ ]
-categories = [ "utility" ]
-disciplines = [ "computer-science" ]
+description = ""
+repository = "https://github.com/tristanduncombe/interleave"
+keywords = ["concurrency", "proofs", "computer science"]
+categories = ["utility"]
 exclude = [
   ".github",
   "docs",
@@ -17,6 +15,5 @@ exclude = [
   "tests",
   ".typstignore",
   "Justfile",
-  "thumbnail-dark.svg",
-  "thumbnail-light.svg"
+  "thumbnail.svg"
 ]
